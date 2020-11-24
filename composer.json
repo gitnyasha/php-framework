@@ -1,0 +1,10 @@
+{
+    "name": "chiks/php-mvc",
+    "authors": [
+        {
+            "name": "marshall nyasha chikari",
+            "email": "marshall.chikari@gmail.com"
+        }
+    ],
+    "require": {}
+}
