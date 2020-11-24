@@ -1,5 +1,5 @@
 <?php 
-namespace app\core;
+namespace chikari\core;
 
  abstract class Model {
      public const RULE_REQUIRED = 'required';

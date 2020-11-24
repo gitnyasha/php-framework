@@ -1,8 +1,8 @@
 <?php
-namespace app\core\middlewares;
-use app\core\Application;
-use app\core\middlewares\BaseMiddleware;
-use app\core\exception\ForbiddenException;
+namespace chikari\core\middlewares;
+use chikari\core\Application;
+use chikari\core\middlewares\BaseMiddleware;
+use chikari\core\exception\ForbiddenException;
 
 class AuthMiddleware extends BaseMiddleware
 {

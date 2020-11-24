@@ -1,8 +1,8 @@
 <?php 
-namespace app\core\form;
+namespace chikari\core\form;
 
-use app\core\Model;
-/** @param \app\core\Model $model
+use chikari\core\Model;
+/** @param \chikari\core\Model $model
  * @param string $attribute
  */
 abstract class BaseField

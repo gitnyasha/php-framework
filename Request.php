@@ -1,5 +1,5 @@
 <?php 
-namespace app\core;
+namespace chikari\core;
 
 class Request {
     public function getPath()

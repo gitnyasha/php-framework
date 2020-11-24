@@ -1,20 +1,20 @@
 <?php 
-use app\core\Request;
+use chikari\core\Request;
 
-namespace app\core;
+namespace chikari\core;
 
-use app\core\Response;
-use app\core\Controller;
-use app\core\exception\NotFoundException;
-use app\core\exception\ForbiddenException;
+use chikari\core\Response;
+use chikari\core\Controller;
+use chikari\core\exception\NotFoundException;
+use chikari\core\exception\ForbiddenException;
 
 class Router {
 
     /**
      * Router constructor
      * 
-     * @param \app\core\Request $request
-     * @param \app\core\Response $response
+     * @param \chikari\core\Request $request
+     * @param \chikari\core\Response $response
      */
 
     public Request $request;
@@ -48,7 +48,7 @@ class Router {
         }
 
         if (is_array($callback)) {
-            /** @var \app\core\Controller $controller */
+            /** @var \chikari\core\Controller $controller */
             $controller = new $callback[0]();
             Application::$app->controller = $controller;
             $controller->action = $callback[1];

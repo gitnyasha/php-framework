@@ -1,8 +1,8 @@
 <?php 
-namespace app\core\db;
+namespace chikari\core\db;
 use PDO;
-use app\migrations;
-use app\core\Application;
+use chikari\migrations;
+use chikari\core\Application;
 
     class Database {
 

@@ -1,6 +1,6 @@
 <?php 
-namespace app\core\form;
-use app\core\Model;
+namespace chikari\core\form;
+use chikari\core\Model;
 
 class Form {
     public static function begin($action, $method)

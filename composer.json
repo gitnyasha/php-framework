@@ -6,5 +6,10 @@
             "email": "marshall.chikari@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "chikari\\core": "./"
+        }
+    },
     "require": {}
 }

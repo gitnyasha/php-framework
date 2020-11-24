@@ -1,13 +1,13 @@
 <?php 
-namespace app\core;
+namespace chikari\core;
 
-use app\core\middlewares\BaseMiddleware;
+use chikari\core\middlewares\BaseMiddleware;
 
 class Controller {
     public string $layout = 'main';
     public string $action = '';
     /**
-     * @var \app\core\middlewares\BaseMiddleware[]
+     * @var \chikari\core\middlewares\BaseMiddleware[]
      */
     protected array $middlewares = [];
 
@@ -29,7 +29,7 @@ class Controller {
     /**
      * Get the value of middlewares
      *
-     * @return  \app\core\middlewares\BaseMiddleware[]
+     * @return  \chikari\core\middlewares\BaseMiddleware[]
      */ 
     public function getMiddlewares()
     {

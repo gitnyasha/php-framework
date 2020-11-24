@@ -1,8 +1,8 @@
 <?php 
-namespace app\core\db;
+namespace chikari\core\db;
 
-use app\core\Model;
-use app\core\Application;
+use chikari\core\Model;
+use chikari\core\Application;
 
 abstract class DbModel extends Model 
 {

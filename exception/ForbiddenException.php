@@ -1,5 +1,5 @@
 <?php 
-namespace app\core\exception;
+namespace chikari\core\exception;
 
 class ForbiddenException extends \Exception
 {

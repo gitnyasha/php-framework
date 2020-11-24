@@ -1,13 +1,13 @@
 <?php
-namespace app\core;
+namespace chikari\core;
 
-use app\core\Router;
-use app\core\db\DbModel;
-use app\core\Request;
-use app\core\Session;
-use app\core\db\Database;
-use app\core\Response;
-use app\core\Controller;
+use chikari\core\Router;
+use chikari\core\db\DbModel;
+use chikari\core\Request;
+use chikari\core\Session;
+use chikari\core\db\Database;
+use chikari\core\Response;
+use chikari\core\Controller;
 
 
 class Application {

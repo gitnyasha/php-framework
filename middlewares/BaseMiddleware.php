@@ -1,5 +1,5 @@
 <?php
-namespace app\core\middlewares;
+namespace chikari\core\middlewares;
 
 abstract class BaseMiddleware
 {

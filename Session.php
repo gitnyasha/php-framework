@@ -1,7 +1,7 @@
 <?php 
-namespace app\core;
+namespace chikari\core;
 
-use function app\core\__construct;
+use function chikari\core\__construct;
 
 class Session
 {

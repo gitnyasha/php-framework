@@ -1,8 +1,8 @@
 <?php 
-namespace app\core\form;
-use app\core\Model;
+namespace chikari\core\form;
+use chikari\core\Model;
 
-use app\core\form\BaseField;
+use chikari\core\form\BaseField;
 
 class TextareaField extends BaseField
 {

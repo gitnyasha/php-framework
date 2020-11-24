@@ -1,8 +1,8 @@
 <?php 
 
-namespace app\core;
+namespace chikari\core;
 
-use app\core\db\DbModel;
+use chikari\core\db\DbModel;
 
 
 abstract class UserModel extends DbModel

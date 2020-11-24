@@ -1,5 +1,5 @@
 <?php 
-namespace app\core\exception;
+namespace chikari\core\exception;
 
 class NotFoundException extends \Exception
 {
